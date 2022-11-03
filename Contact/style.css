@@ -1,0 +1,37 @@
+body{
+padding: 0;
+margin: 0;
+ 
+    background-color: rgb(255,255,255);
+}
+
+.big{
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+}
+.Top{
+    width: 160px;
+    padding-left: 40%;
+    /* border-bottom: 1px solid red ; */
+
+}
+.Top h2{
+    width: 165px;
+    border-bottom: 8px solid rgb(223, 236, 100) ;
+
+}
+.button{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.One{
+    width: 250px;
+    height: 170px;
+border: 1px  solid rgba(212, 205, 192, 0.897);
+padding-left:5% ;
+padding-top:2% ;
+box-shadow: 3px 3px 4px 4px  rgb(223, 223, 223);
+}
